@@ -1,4 +1,4 @@
-# NLP_Word_Embeddings
+# NLP-Word Embeddings
 
 In this project, I have implemented a Skip-gram model to learn word representations and computed loss using Cross Entropy and NCE methods. I then used the above model (along with some hyperparameter tuning) to determine relations between word pairs.
 
@@ -20,3 +20,14 @@ Q1. Which word pairs has the MOST illustrative(similar) example of the relation 
 
 Q2. Which word pairs has the LEAST illustrative(similar) example of the relation R?
 
+# Files in this repository:
+
+- word2vec_basic.py : This file is the main script for training word2vec model (using skip-gram model)
+
+- loss_func.py : This file have two loss functions
+
+  a)Cross_Entropy_loss
+
+  b)nce_loss - Noise contrastive estimation loss.
+
+- word_analogy.py : This file is used for evaluating relation between pairs of words using the similarities of difference vectors.
